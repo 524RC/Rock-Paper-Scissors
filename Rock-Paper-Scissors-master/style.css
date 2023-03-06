@@ -1,0 +1,29 @@
+body{
+    background-image: url("battle2.webp");
+    background-repeat:no-repeat;
+    background-position: 50% 0;
+    background-size:cover;
+    background-attachment: fixed;
+    
+}
+.picture{
+    width:100px;
+    height:100px;
+}
+.Chosen{
+    width:200px;
+    height:200px; 
+}
+.Score{
+    font-size:25px;
+    font-family:fantasy;
+    color:black;
+}
+h1{
+    font-family:fantasy;
+}
+.number{
+    font-size:30px;
+    font-family:fantasy;
+    color:black;
+}

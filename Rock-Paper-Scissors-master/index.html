@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<title>Document</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <center>
+                    <h1>Your Pokemon</h1>
+                    <p class="Score">Score:</p>
+                    <p class="number" id="pScore">0</p>
+                    <img id="yourPokemon" src="pokeball2.png" alt="" class="Chosen">
+                </center>
+            </div>
+            <div class="col">
+                <center>
+                <h1 id="announcement"></h1>
+            </center>
+            </div>
+            <div class="col">
+                <center>
+                    <h1>Trainer's Pokemon</h1>
+                    <p class="Score">Score:</p>
+                    <p class="number" id="cScore">0</p>
+                    <img id="computerPokemon" src="pokeball2.png" alt="" class="Chosen">
+                </center>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <center>
+                    <img src="charmander2.png" class="picture" onClick="playGame('fire')">
+                </center>
+            </div>
+            <div class="col">
+                <center>
+                    <img src="squirtle2.png" class="picture" onClick="playGame('water')">
+                </center>
+            </div>
+            <div class="col">
+                <center>
+                    <img src="bulbasaur2 (1).png" class="picture" onClick="playGame('grass')">
+                </center>
+            </div>
+            <div class="col">
+                <center>
+                    <h1>Fight</h1>
+                </center>
+            </div>
+            <div class="col">
+                <center>
+                    <img src="pokeball2.png" class="picture">
+                </center>
+            </div>
+            <div class="col">
+                <center>
+                    <img src="pokeball2.png" class="picture">
+                </center>
+            </div>
+            <div class="col">
+                <center>
+                    <img src="pokeball2.png" class="picture">
+                </center>
+            </div>
+<div class="row">
+    <div class="col">
+        <center>
+        <button onClick="reset()">Reset</button>
+    </center>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <center>
+        <h1>You have just encountered a trainer! quickly choose a pokemon to throw out and battle the trainer. Your pokemon will be on the left. You will gain a point if you beat the trainer. Orange lizard dinosaur beats flower pot dog but gets beat by chernobyl turtle. Chernobyl turtle beats orange lizard dinosaur but gets beat by flower pot dog. Flower pot dog beats chernobyl turtle but gets beat by orange lizard dinosaur! Now quickly beat the trainer!</h1>
+    </center>
+    </div>
+</div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+        </script>
+    <script src="script.js">
+       
+    </script>
+</body>
+
+</html>
